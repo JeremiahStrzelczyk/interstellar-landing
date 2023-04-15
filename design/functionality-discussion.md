@@ -1,0 +1,28 @@
+- [ ] There should be many worlds to land on
+  - Earth
+  - Moon
+- [ ] There should be multiple difficulty levels
+  - Easy mode starts with just a vertical thrust, landing on flat ground
+  - Medium mode starts with vertical and horizontal thrust, but mostly flat ground
+  - Difficult starts at a faster vertical and horizontal thrust, and flat land is hard to come by
+  - Master? Same as difficult but with objects that can get in our way
+    - Planes on Earth, the Lunar spacecraft on the Moon, spaceships on Mars, storms on Jupiter, diamonds on saturn, etc.
+- [ ] User should be able to control the space craft
+  - Thrusting happens with the push of a button
+    - Spacebar to thrust
+  - User should be able to change the angle of the thrusters
+    - Mouse movement controls the butt of the rocket
+- [ ] Thrusting should range from `0 m/s` up to some `MAX m/s`
+- [ ] More thrust burns more fuel and vise-versa
+- [ ] There should be some sort of scoring system
+  - User gets a score based on how well the ship was landing by considering many factors:
+    - The speed at which it was landed
+      - Max points for some **range** `m/s`
+      - Points increasingly deducted if outside this range
+    - Damage the ship has received
+      - Infinite "health bar" for `Easy` mode
+      - Less of a health bar for the rest
+    - Amount of fuel remaining
+      - Max points for some **range** of fuel left
+      - Points increasingly deducted if less than this amount
+  - [ ]
